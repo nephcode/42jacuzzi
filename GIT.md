@@ -8,3 +8,13 @@ the dual connection is not necessary but its fun to do this for improve your ski
 42 profile authorize 3 ssh keys connection.
 actually just one is necessary but for secure reason we create a ssh key for external machine from 42
 
+## GIT CONFIG EXPRESS 
+`git remote -v`
+
+`git remote add [github] https://github.com/[USER]/[repo].git`
+
+note master:main is a trick to sync the branch vogsphere/master to github/main. if you want to clean your repo, choice a vintage master name.
+`git push origin master && git push github master:main`
+
+## .gitconfig to build a perfect ci/cd 42/personal repo
+underconstruction for pisciners, retryers and students
