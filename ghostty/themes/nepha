@@ -1,0 +1,69 @@
+#=======================================#
+#        DARK NEPHA CREAMY THEME        #
+#=======================================#
+# all comments after # character -------#
+
+# BACKGROUND ---------------------------#
+
+#--------------------------------- navy -
+background = #000B32
+
+#--------------------- text creamy pink -
+foreground = #FF92DF
+
+#------------------------ creamy flower -
+selection-foreground = #FFFFA5
+
+#------------------------------- purple -
+selection-background = #6E0090
+
+# CURSOR -------------------------------#
+cursor-color = #f8f8f2
+cursor-text = #282a36
+
+# --------------------------------------#
+# MAIN COLORS --------------------------#
+# --------------------------------------#
+
+#--------------------- pink folder name -
+palette = 6=#ff007e 
+
+#------------------------- current text -
+palette = 7=#FF9DF3
+
+palette = 0=#000516
+
+
+palette = 3=#FFFFA5
+palette = 4=#D651FF
+palette = 5=#ff0042
+
+# --------------------------------------#
+# GIT FOLDER ---------------------------#
+# --------------------------------------#
+
+palette = 1=#ff007e
+
+palette = 2=#50fa7b
+
+
+
+palette = 9=#ff6e6e
+palette = 10=#69ff94
+palette = 11=#ffffa5
+palette = 12=#d6acff
+palette = 13=#ff92df
+palette = 14=#a4ffff
+palette = 15=#ffffff
+
+# --------------------------------------#
+# VIM EDITOR ---------------------------#
+# --------------------------------------#
+
+palette = 8=#6E0090
+
+
+
+#=======================================#
+#        DARK NEPHA CREAMY THEME        #
+#=======================================#
