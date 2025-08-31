@@ -25,4 +25,4 @@ set undodir=~/.vim/undo
 set undolevels=1000                                                             
 set undoreload=10000                                                            
                                                                              
-" ====== NEPHA CODE ∵ ƸӜƷ ∴ =====                                                                                                                               
+" ====== NEPHA CODE ∵ ƸӜƷ ∴ =====                                              
