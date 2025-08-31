@@ -1,0 +1,17 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.lua",
+      "options": {
+        "parser": "lua"
+      }
+    }
+  ]
+}
