@@ -1,0 +1,75 @@
+#=========================================================#
+#---------------------------------------------------------#
+#                        NEPHCODE                         #
+#---------------------------------------------------------#
+#=========================================================#
+
+# === FONT TYPE ==========================================#
+font-family = "JetBrainsMono Nerd Font"
+font-size = 18
+font-thicken = true
+
+# === SHELL INTEGRATION ==================================#
+background-opacity = 0.75
+background-blur-radius = 20
+unfocused-split-opacity = 0.25
+unfocused-split-fill = 400020
+split-divider-color = FF007E
+
+window-theme = auto
+window-decoration = true
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+confirm-close-surface = false
+
+# --- HID ------------------------------------------------#
+mouse-hide-while-typing
+
+cursor-style-blink = false
+#shell-integration-features = no-cursor
+
+# --- Cursor shader works only on tip branch -------------#
+auto-update = check
+auto-update-channel = tip
+
+# === MAC OS =============================================#
+macos-titlebar-style = tabs
+macos-icon = xray
+macos-icon-ghost-color = 99b3ff
+#macos-icon-frame = beige
+
+#  === THEME =============================================#
+theme = nepha
+
+# === CURSOR ANIMATED ====================================#
+#custom-shader = shaders/cursor_trail.glsl
+#custom-shader = shaders/cursor_blaze.glsl
+
+#custom-shader = shaders/cursor_blaze_tapered.glsl
+#custom-shader = shaders/cursor_blaze.glsl
+#custom-shader = shaders/cursor_blaze_frozen.glsl
+custom-shader = shaders/cursor_wip_nepha.glsl
+#custom-shader = shaders/manga_slash.glsl
+custom-shader = shaders/cursor_smear.glsl
+
+# === SHADERS T800 HUD ===================================#
+#custom-shader = shaders/tft_nepha.glsl
+
+# === SHADERS MATRIX WALL ================================#
+#custom-shader = shaders/window_matrix.glsl
+
+# === SHADERS SMOOTHIS LOFI ==============================#
+custom-shader = shaders/window_bloom_nepha.glsl
+
+# === SHADERS GLITCH NEPHA ===============================#
+#custom-shader = shaders/window_glowglitchy.glsl
+
+# === SHADERS ANIMATION ==================================#
+custom-shader-animation = always
+cursor-style = block
+
+# === KEYBIND ============================================#
+#
+#

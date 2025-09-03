@@ -44,7 +44,6 @@ palette = 5=#ff0042
 
 palette = 1=#ff007e
 
-palette = 2=#50fa7b
 
 
 
@@ -54,15 +53,30 @@ palette = 11=#ffffa5
 palette = 12=#d6acff
 palette = 13=#ff92df
 palette = 14=#a4ffff
-palette = 15=#ffffff
+palette = 15=#AE71FF
 
 # --------------------------------------#
 # VIM EDITOR ---------------------------#
 # --------------------------------------#
 
+#----------------------- "string value" -
+palette = 2=#AE71FF
+
+
 palette = 8=#6E0090
 
+# --------------------------------------#
+# NEOVIM EDITOR ------------------------#
+# --------------------------------------#
 
+# --------------------------------------#
+# Dev Experience -----------------------#
+# --------------------------------------#
+
+# ------------------------- BorderSpace -
+window-padding-x = 10     
+window-padding-y = 10
+window-padding-balance = true
 
 #=======================================#
 #        DARK NEPHA CREAMY THEME        #
