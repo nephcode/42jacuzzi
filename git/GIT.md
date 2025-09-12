@@ -22,4 +22,16 @@ note master:main is a trick to sync the branch vogsphere/master to github/main. 
 ## .gitconfig to build a perfect ci/cd 42/personal repo
 underconstruction for pisciners, retryers and students
 
+## .gitignore & .gitignore\_global
+
+Create a file `.gitignore_global` into home folder <kbd>~</kbd>
+ 
+```
+*~
+.swp
+.swo
+.swn
+```
+if you works on a mac add `.DS_Store`
+
 ![Cover](https://github.com/nephcode/42-nephcode/blob/main/.github/images/readmeFooter42.png)

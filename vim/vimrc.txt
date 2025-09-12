@@ -1,0 +1,47 @@
+" ================================
+"   Config Vim spéciale 42
+"   Respect Norminette indentation
+" ============= ∵ ƸӜƷ ∴ ==========
+
+" ---- Indentation --- ∵ ƸӜƷ ∴ ---
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set noexpandtab
+set autoindent
+set smartindent
+
+" ---- Visuels ---- ∵ ƸӜƷ ∴ ------
+syntax on
+set mouse=a
+set number
+set list
+set listchars=tab:→\ ,trail:·
+set colorcolumn=80
+set showmode
+
+" -- Code Syntax -- ∵ ƸӜƷ ∴ ------
+highlight String    ctermfg=10	" Green Apple candy
+highlight Character ctermfg=4	" Purple Light
+highlight Number    ctermfg=1	" Magenta Nepha
+
+" ---- Historique / Undo - ∵ ƸӜƷ ∴
+set undofile
+set undodir=~/.vim/undo
+set undolevels=1000
+set undoreload=10000
+
+
+" ---- Plugins Discord ----------
+call plug#begin('~/.vim/plugged')
+Plug 'vimsence/vimsence'
+Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+call plug#end()
+" :PlugInstall
+
+" ---- Snippets -----------------
+" Collection géante de snippets
+
+
+" ====== NEPHA CODE ∵ ƸӜƷ ∴ =====
