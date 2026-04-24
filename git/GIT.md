@@ -1,11 +1,13 @@
 ![Cover](https://github.com/nephcode/42-nephcode/blob/main/.github/images/readmeHeader42.png)
 
-# 42 VOGSPHERE ADVANCED CONFIG 
+# 42 NEXT ADVANCED CONFIG 
 Here, we see how to create it easily and both connection with your personal git (github). 
 the dual connection is not necessary but its fun to do this for improve your skills and create memories.
 
-## FIRST INIT 
+## 42 SESSION
 in Piscine Session for Shell00 exercice, you need to create an ssh connection to vogsphere *(it is a gitea server)*. 
+
+## HOME SESSION 
 
 ## CREATE A SSH-KEY 42 EXTERNAL SESSION [SAFE]
 42 profile authorize 3 ssh keys connection.

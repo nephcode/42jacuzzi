@@ -12,6 +12,12 @@
       "options": {
         "parser": "lua"
       }
+    },
+    {
+      "files": ["*.md", "*.markdown"],
+      "options": {
+        "parser": "markdown"
+      }
     }
   ]
 }
