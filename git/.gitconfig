@@ -1,0 +1,5 @@
+[user]
+	name = name(machine-optional)
+	email = name@learner.42.fr
+[core]
+	excludesfile = ~/.gitignore_global

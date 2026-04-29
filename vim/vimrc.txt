@@ -1,30 +1,41 @@
-" ================================
-"   Config Vim spéciale 42
-"   Respect Norminette indentation
-" ============= ∵ ƸӜƷ ∴ ==========
+" ================================ "
+"   Config Vim spéciale 42         "
+"   Respect Norminette indentation "
+" ============= ∵ ƸӜƷ ∴ ========== "
 
-" ---- Indentation --- ∵ ƸӜƷ ∴ ---
+" ---- Indentation --- ∵ ƸӜƷ ∴ --- "
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set noexpandtab
 set autoindent
 set smartindent
+set showmode
 
-" ---- Visuels ---- ∵ ƸӜƷ ∴ ------
+" ---- Visuels ---- ∵ ƸӜƷ ∴ ------ "
 syntax on
 set mouse=a
 set number
 set list
 set listchars=tab:→\ ,trail:·
 set colorcolumn=80
-set showmode
 
-" -- Code Syntax -- ∵ ƸӜƷ ∴ ------
+" ---- Historique / Undo - ∵ ƸӜƷ ∴ "
+set undofile
+set undodir=~/.vim/undo
+set undolevels=1000
+set undoreload=1000
+
+" ---- No Backup ----------------- "
+set noswapfile
+set nobackup
+
+" -- Code Syntax -- ∵ ƸӜƷ ∴ ------ "
 highlight String    ctermfg=10	" Green Apple candy
 highlight Character ctermfg=4	" Purple Light
 highlight Number    ctermfg=1	" Magenta Nepha
 
+<<<<<<< HEAD
 " ---- Historique / Undo - ∵ ƸӜƷ ∴
 set undofile
 set undodir=~/.vim/undo
@@ -46,3 +57,13 @@ call plug#end()
 
 
 " ====== NEPHA CODE ∵ ƸӜƷ ∴ =====
+=======
+" ===== NEPHA CODE ∵ ƸӜƷ ∴ ======= "
+
+" ===== PLUG IN ================== "
+source  ~/.vim/plugin/header42.vim
+"call plug#begin('~/.vim/plugin')
+"Plug 'vimsense/vimsense'
+"call plug#end()
+"================================= "
+>>>>>>> refs/remotes/origin/main
