@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 #==============================================================================#
 
 # SESSION 42 ------------------------------------------------------------------#
-alias open="xdg-open"
+alias open="xdg-open" # open GUI window in the target folder
 
 # C 42  -----------------------------------------------------------------------#
 alias cwww="cc -Wall -Wextra -Werror"
@@ -40,7 +40,9 @@ alias no="norminette"
 alias push42="git push origin main"
 alias pushome="git push upstream main"
 alias pushall="git push origin main && git push upstream main"
-
+alias pull42="git pull origin main"
+alias pullhome="git pull upstream main"
+alias pullall="git pull origin main && git pull upstream main"
 #==============================================================================#
 # END                                                                          #
 #==============================================================================#
