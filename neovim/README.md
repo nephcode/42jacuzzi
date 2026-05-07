@@ -14,7 +14,7 @@ This is a default setup for Neovim on fedora Next 42.
 
 # Add prettier on 42session
 
-By default you have not the permissions to
+By default you have not the permissions to install packages on your session. You should to the bin home 
 
 ```Bash
 mkdir -p ~/.npm-global
