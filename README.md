@@ -34,20 +34,21 @@ Next is the new Learning Management System. Next works with Github (42 learners)
 
 fixed the ip restriction with an upstream repo and few alias in your shell config (very easy).
 
-| INSTALL README 👇       | LINK          | FOR                         | COMMENT                            |
-| :---------------------- | ------------- | --------------------------- | ---------------------------------- |
-| Homebrew                | [homebrew](https://brew.sh)      | macos    | install terminal app for developer |
-| [vim](/vim) 						   | [vim](https://www.vim.org)        | macos & linux             | IDE 42 norm      |              
-| neovim                  | [neovim](https://neovim.io)       | macos & linux |                              |
-| vscode						|[visual code](https://code.visualstudio.com/) |
-| 42Header                | [42 header](https://github.com/42paris/42header)  | macos & linux               | -               |                   |
-| 42Header By Neph        | [Neph header](https://github.com/nephcode/42header)          | macos & linux               | the real 42 logo ascii art         |
-| norminette              | www 			  | macos & linux                     |install the 42 norm at home  |
-| francinette             |                | By student                  | -   macos & linux                                |
-| funcheck                | -             | linux                       | By Froz 42Bocal                    |
-| valgrind                | -             | linux                       | -                                  |
-| tart                    | macos         | -                           | Virtual Machine for Apple Silicon  |
-| python tools            | -             | macos & linux               | -                                  |
+| INSTALL README 👇   | LINK                                                      | FOR             | COMMENT                            |
+| :---------------------- | --------------------------------------------------------- | ----------------| ---------------------------------- |
+| Homebrew                | [homebrew](https://brew.sh)                               | macos           | install terminal app for developer |
+| [zsh](/zsh)             | -                                                         | macos           | -                                  |
+| [vim](/vim)             | [vim](https://www.vim.org)                                | macos & linux   | IDE 42 setup the norm              |              
+| neovim                  | [neovim](https://neovim.io)                               | macos & linux   | *underconstruction*                |
+| vscode                  | [visual code](https://code.visualstudio.com/)             | macos & linux   | -                                  |
+| 42Header                | [42 header](https://github.com/42paris/42header)          | macos & linux   | -                                  |
+| 42Header By Neph        | [Neph header](https://github.com/nephcode/42header)       | macos & linux   | the real 42 logo ascii art         |
+| norminette              | [norminette](https://github.com/42school/norminette)      | macos & linux   | install the 42 norm at home        |
+| francinette             | [francinette](https://github.com/WaRtr0/francinette-image)| linux           | By 42 Student                      |           
+| funcheck                | [funcheck](https://github.com/froz42/funcheck)            | linux           | By Froz 42Bocal                    |
+| valgrind                | [valgrind](https://valgrind.org/)                         | linux           | -                                  |
+| tart                    |  [https://tart.run/](https://tart.run/)                   | macos           | Virtual Machine for Apple Silicon  |
+| python tools            | -                                                         | macos & linux   | *underconstruction*                |
 
 ## BONUS
 
