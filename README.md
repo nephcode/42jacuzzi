@@ -10,7 +10,8 @@ Here you find a setup for :
 - `42 session` for school cluster
 - `HOME session` for personal machine (Linux or MacOS)
 
-if you are pisciners (retryers included) please focus on a quick setup for you, you have no time, selection is hard.
+> Disclaimer
+**if you are pisciners (retryers included) please focus on a quick setup for you, you have no time, selection is hard.**
 
 ## PISCINERS
 
@@ -33,14 +34,16 @@ Next is the new Learning Management System. Next works with Github (42 learners)
 
 fixed the ip restriction with an upstream repo and few alias in your shell config (very easy).
 
-| INSTALL                 | LINK          | FOR                         | COMMENT                            |
+| INSTALL README 👇       | LINK          | FOR                         | COMMENT                            |
 | :---------------------- | ------------- | --------------------------- | ---------------------------------- |
-| Homebrew                | www           | macos                       | install terminal app for developer |
-| `vim` `neovim` `vscode` | www           | macos & linux               | IDE 42 norm                        |
-| 42Header                | www           | macos & linux               | -                                  |
-| 42Header By Neph        | www           | macos & linux               | the real 42 logo ascii art         |
-| norminette              | macos & linux | install the 42 norm at home | -                                  |
-| francinette             | macos & linux | By student                  | -                                  |
+| Homebrew                | [homebrew](https://brew.sh)      | macos    | install terminal app for developer |
+| [vim](/vim) 						   | [vim](https://www.vim.org)        | macos & linux             | IDE 42 norm      |              
+| neovim                  | [neovim](https://neovim.io)       | macos & linux |                              |
+| vscode						|[visual code](https://code.visualstudio.com/) |
+| 42Header                | [42 header](https://github.com/42paris/42header)  | macos & linux               | -               |                   |
+| 42Header By Neph        | [Neph header](https://github.com/nephcode/42header)          | macos & linux               | the real 42 logo ascii art         |
+| norminette              | www 			  | macos & linux                     |install the 42 norm at home  |
+| francinette             |                | By student                  | -   macos & linux                                |
 | funcheck                | -             | linux                       | By Froz 42Bocal                    |
 | valgrind                | -             | linux                       | -                                  |
 | tart                    | macos         | -                           | Virtual Machine for Apple Silicon  |
@@ -48,7 +51,7 @@ fixed the ip restriction with an upstream repo and few alias in your shell confi
 
 ## BONUS
 
-a new pdf ascii table 👉 [ascii table 42](/pdf/asciiTable42.pdf)
+a new pdf ascii table V 1.0 👉 [ascii table 42](/pdf/asciiTable42.pdf) A5 printable
 
 ## CREDITS
 
