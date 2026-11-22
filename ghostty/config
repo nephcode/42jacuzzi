@@ -1,18 +1,22 @@
 #=========================================================#
 #---------------------------------------------------------#
-#                        NEPHCODE                         #
+#                 NEPHCODE x 42 JACUZZI                   #
 #---------------------------------------------------------#
 #=========================================================#
 
+# === SHELL INTEGRATION ZSH 42 SESSION ===================#
+command = zsh
+shell-integration = zsh
+
 # === FONT TYPE ==========================================#
 font-family = "JetBrainsMono Nerd Font"
-font-size = 18
+font-size = 12
 font-thicken = true
 
-# === SHELL INTEGRATION ==================================#
-background-opacity = 0.75
+# === THEME GLOBAL =======================================#
+background-opacity = 0.85
 background-blur-radius = 20
-unfocused-split-opacity = 0.25
+unfocused-split-opacity = 0.65
 unfocused-split-fill = 400020
 split-divider-color = FF007E
 
@@ -21,7 +25,6 @@ window-decoration = true
 window-padding-x = 10
 window-padding-y = 10
 window-padding-balance = true
-
 confirm-close-surface = false
 
 # --- HID ------------------------------------------------#
@@ -70,6 +73,27 @@ custom-shader = shaders/window_bloom_nepha.glsl
 custom-shader-animation = always
 cursor-style = block
 
-# === KEYBIND ============================================#
-#
-#
+# === KEYBIND 42 SESSION MACOS BEHAVIOR ==================#
+
+# Splits
+keybind = alt+shift+d=new_split:right
+keybind = alt+d=new_split:down
+keybind = alt+w=close_surface
+
+# Navigation splits
+keybind = alt+left_bracket=goto_split:previous
+keybind = alt+right_bracket=goto_split:next
+
+# Onglets
+keybind = alt+t=new_tab
+
+# Fenêtre
+keybind = alt+n=new_window
+
+# Clipboard
+keybind = alt+c=copy_to_clipboard
+keybind = alt+v=paste_from_clipboard
+
+#=========================================================#
+# === END ================================================#
+# ========================================================#
