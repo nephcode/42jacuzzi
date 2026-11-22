@@ -1,4 +1,4 @@
-![Cover](https://github.com/nephcode/42-nephcode/blob/main/.github/images/readmeHeader.png)
+![Cover](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/readmeHeader.png)
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
@@ -61,4 +61,4 @@ Please make a frontend for this \_ ReactRouter OR Astro.
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
-![Cover](https://github.com/nephcode/42-nephcode/blob/main/.github/images/readmeFooter.png)
+![Cover](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/readmeFooter.png)

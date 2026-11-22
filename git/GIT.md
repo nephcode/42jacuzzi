@@ -1,4 +1,4 @@
-![Cover](https://github.com/nephcode/42-nephcode/blob/main/.github/images/readmeHeader42.png)
+![Cover](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/readmeHeader.png)
 
 # 42 NEXT ADVANCED CONFIG 
 Here, we see how to create it easily and both connection with your personal git (github). 
@@ -36,4 +36,4 @@ Create a file `.gitignore_global` into home folder <kbd>~</kbd>
 ```
 if you works on a mac add `.DS_Store`
 
-![Cover](https://github.com/nephcode/42-nephcode/blob/main/.github/images/readmeFooter42.png)
+![Cover](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/readmeFooter.png)
