@@ -11,6 +11,13 @@ the dual connection is not necessary but its fun to do this for improve your ski
 42Learner profile authorize ssh keys connection.
 actually just one is necessary but for secure reason we create a ssh key for external machine from 42
 
+## CREATE A VERIFIED SIGN IN GITHUB
+![Unverified](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/42jacuzzi-git-unverified.png)
+
+sometimes github need a signin ssh key to certified the commit. (one key, one machine) you can use the same key for auth & sign. 
+
+*Github > Profile > 
+
 ## ADD GITHUB 42 LEARNER AS MIRROR 
 To see the remote connexion repositories. in this configuration you work of your personal github and clone the 42 repository with an upstream link. 
 
