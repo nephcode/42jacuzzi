@@ -5,7 +5,7 @@ Here, we see how to create it easily and both connection with your personal git 
 the dual connection is not necessary but its fun to do this for improve your skills and create memories.
 
 ## CREATE GITCONFIG
-
+*working progress* please let me comment to improve the project or my english 😅🫶
 
 ## CREATE A SSH-KEY 42 EXTERNAL SESSION [SAFE]
 42Learner profile authorize ssh keys connection.
@@ -16,6 +16,13 @@ actually just one is necessary but for secure reason we create a ssh key for ext
 
 sometimes github need a signin ssh key to certified the commit. (one key, one machine) you can use the same key for auth & sign. But if you need more security level, prefer to create specific keys for both. 
 
+perhaps you prefere to use direct command. I prefer to edit file 
+
+```
+git config --global gpg.format ssh
+git config --global commit.gpgsign true
+```
+
 add this block in file `~./gitconfig` 
 
 ```
@@ -23,6 +30,14 @@ add this block in file `~./gitconfig`
         name = [LOGIN GITHUB]
         email = github@email.com
         signingkey = ~/.ssh/mykey.pub
+[gpg]
+    format = ssh
+
+[commit]
+    gpgsign = true
+
+[core]
+    excludesFile = ~/.gitignore_global
 ```
 
 after go to setting ssh key in github configuration 
@@ -34,8 +49,10 @@ Select Signin Key and enter you `myfile.pub` like example
 ![Signinkey](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/42jacuzzi-git-signinkey.png)
 
 
-## ADD GITHUB 42 LEARNER AS MIRROR 
+## ADD GITHUB 42 LEARNER DUAL REMOTE
 To see the remote connexion repositories. in this configuration you work of your personal github and clone the 42 repository with an upstream link. 
+
+![nextDualRemote](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/42jacuzzi-git-dualremote.png)
 
 You can do it on your personal notebook and 42 session 
 
