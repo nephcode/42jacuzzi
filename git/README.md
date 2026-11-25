@@ -14,9 +14,25 @@ actually just one is necessary but for secure reason we create a ssh key for ext
 ## CREATE A VERIFIED SIGN IN GITHUB
 ![Unverified](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/42jacuzzi-git-unverified.png)
 
-sometimes github need a signin ssh key to certified the commit. (one key, one machine) you can use the same key for auth & sign. 
+sometimes github need a signin ssh key to certified the commit. (one key, one machine) you can use the same key for auth & sign. But if you need more security level, prefer to create specific keys for both. 
 
-*Github > Profile > 
+add this block in file `~./gitconfig` 
+
+```
+[user]
+        name = [LOGIN GITHUB]
+        email = github@email.com
+        signingkey = ~/.ssh/mykey.pub
+```
+
+after go to setting ssh key in github configuration 
+
+**Github > Profile (click on your avatar) > Settings > SSH and GPG keys > New SSH keys (button)**
+
+Select Signin Key and enter you `myfile.pub` like example
+
+![Signinkey](https://github.com/nephcode/42jacuzzi/blob/main/.github/images/42jacuzzi-git-signinkey.png)
+
 
 ## ADD GITHUB 42 LEARNER AS MIRROR 
 To see the remote connexion repositories. in this configuration you work of your personal github and clone the 42 repository with an upstream link. 
@@ -29,8 +45,8 @@ You can do it on your personal notebook and 42 session
 git remote -v
 ```
 Normally you see you personal repo   
-*origin  git@github.com:login/project.git (fetch)  
-origin  git@github.com:login/project.git (push)*
+*`origin  git@github.com:login/project.git (fetch)`*  
+*`origin  git@github.com:login/project.git (push)`*
 
 if origin does not exist on my personal repository
 ```
